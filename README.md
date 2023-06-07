@@ -16,4 +16,4 @@ script in this repository.
 ### From gui
 
 Install the official docker gui, and select the options matching the flags in
-the `docker run` command in the `run.sh` file.`
+the `docker run` command in the `run.sh` file.
