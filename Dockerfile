@@ -12,3 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/jovyan"
 
+# install vim
+RUN apt install vim
