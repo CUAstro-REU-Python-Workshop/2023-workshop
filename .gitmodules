@@ -1,0 +1,3 @@
+[submodule "2022-workshop"]
+	path = 2022-workshop
+	url = https://github.com/CUAstro-REU-Python-Workshop/2022-workshop
