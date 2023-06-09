@@ -9,7 +9,22 @@ You may download it and run it on your local machine using jupyter.
 I recommend checking out the jupyter lab environment. You can do so on your own
 machine, or by running the docker container defined by this repository. 
 
-## How to build and run this environment
+# How to make a conda environment for this workshop
+
+For this workshop, you will need to use materials in this repository, so you can start by downloading it to your computer (under "Code" there is a dropdown; select "Download ZIP"). You will then need to find and unzip the "2023-workshop-main" folder on your computer. 
+
+From there, you will want to create an environment to work in. It is good practice and usually simple to do this manually. However, if you are familiar with docker containers, you can skip down to the section on "How to build and run the environment from the docker container" below.
+
+To build your environment manually, you'll want to start with a clone of your base environment.
+From your command line, run `conda create --name summer_workshop --clone base`
+
+Activate the environment by running `conda activate summer_workshop`
+
+At this point, you can open jupyter in your default browser by running `jupyter notebook` or `jupyter lab`, whichever you prefer to work in (note that some of your computers may have miniconda instead of anaconda, in which cas `jupyter lab` may not work). 
+
+During the workshop, you may need to download extra packages into your environment. If you find that you don't have a package you need, from your command line (with your environment activated), run `conda install <package name>` or `pip install <package name>`. You should then be able to rerun the import cell in your Jupyter notebook without issue.
+
+## How to build and run the environment from the docker container
 
 ### From cli
 
