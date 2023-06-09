@@ -37,3 +37,10 @@ browser (left side).
 
 You can open multiple tools in the jupyter environment and arrange them using
 the built-in system of tabs and tiling window management.
+
+# Last year's workshop
+
+Last year had four of these one-hour workshop sessions, not one. The materials
+from those sessions was of excellent quality, and is available for archival
+purposes as a submodule to this repository. The notebooks are relatively
+self-guided, and a great resource if this workshop left you thirsty for more.
