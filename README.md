@@ -1,12 +1,19 @@
 # 2023 REU Workshop
 
-< Add more introductory material on the workshop >
+Welcome to the 2023 Cornell REU Program's intro to python workshop.
+
+During this workshop, we will go through the tutorial in the file `2023-REU-Workshop-Python-Tutorial.ipynb`
+
+You may download it and run it on your local machine using jupyter.
+
+I recommend checking out the jupyter lab environment. You can do so on your own
+machine, or by running the docker container defined by this repository. 
 
 ## How to build and run this environment
 
 ### From cli
 
-Install `docker-cli`.
+Install `docker-cli` with your package manager.
 
 Next, run the `buildandrun.sh` script included in this repository.
 
